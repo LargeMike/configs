@@ -1,1 +1,1 @@
-My kitty terminal config
+My configs
