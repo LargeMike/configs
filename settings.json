@@ -1,0 +1,52 @@
+{
+  "workbench.colorTheme": "Viow Arabian",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "AnonymousPro",
+  "editor.formatOnPaste": true,
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "files.autoSave": "afterDelay",
+  "workbench.editor.labelFormat": "medium",
+  "workbench.sideBar.location": "right",
+  "git.openRepositoryInParentFolders": "never",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "t", "t"],
+      "commands": ["solutionExplorer.focus"]
+    },
+
+    {
+      "before": ["<leader>", "g", "g"],
+      "commands": ["git-graph.view"]
+    },
+
+    {
+      "before": ["<leader>", "s", "s"],
+      "commands": ["editor.action.inlineSuggest.commit"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-s>": false,
+    "<C-z>": false
+  },
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineNumbers": "relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+  "vim.statusBarColorControl": true
+}
